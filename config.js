@@ -76,11 +76,9 @@ const CONFIG = {
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        enabled: false,                     // Music feature is enabled
+        autoplay: false,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://soundcloud.com/oliviaadean/ive-seen-it", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
